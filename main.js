@@ -13,9 +13,9 @@ const registerProvinceSelect = document.querySelectorAll('#registerForm select')
 
 //------------------------------------------------------------------------------- Expresiones
 const validations = {
-    search : /^[a-zA-Z0-9\_\-]{3,150}$/ ,
+    search : /^[a-zA-Z0-9\_\-\s]{3,150}$/ ,
     mail: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/ ,
-    pass: /[a-zA-Z0-9\_\-]/ ,
+    pass: /[a-zA-Z0-9\_\-]{8,}/ ,
     province: /[a-zA-Z]/
 }
 
